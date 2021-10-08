@@ -1,0 +1,59 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border: solid black;
+    background: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 40px;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav div img{
+    height: 20px;
+}
+input{
+    width: 500px;
+    height: 100%;
+}
+.nav-button{
+    border: none;
+    background: none;
+}
+
+main{
+    display: flex;
+    border: solid red;
+    margin-top: 70px;
+}
+.main-video{
+    flex: 2;
+    border: solid yellow;
+}
+.video-playlist{
+    border: solid black;
+    flex: 1;
+}
+
+.video-item{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.search-button{
+    background: none;
+    border: solid black 1px;
+    height: 10%;
+}

@@ -4,7 +4,6 @@ header{
     left: 0;
     right: 0;
     width: 100%;
-    border: solid black;
     background: white;
 }
 nav{
@@ -26,6 +25,7 @@ nav div img{
 input{
     width: 500px;
     height: 100%;
+    padding-left: 15px;
 }
 .nav-button{
     border: none;
@@ -55,5 +55,20 @@ main{
 .search-button{
     background: none;
     border: solid black 1px;
-    height: 10%;
+    height: 115%;
+}
+
+.mic-button{
+    border-radius: 60%;
+    border: black solid 1px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    background: none;
+}
+
+i{
+    font-size: 16px;
+    margin: 0px 5px;
 }
